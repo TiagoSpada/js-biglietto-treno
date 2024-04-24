@@ -12,5 +12,6 @@ if (eta < 18) {
 else if (eta > 65) {
     prezzoTot -= (prezzoTot*0.4);
 }
+//lascio solo 2 decimali
 prezzoTot= prezzoTot.toFixed(2);
 console.log("il prezzo totale da pagare è: "+prezzoTot+"€");
